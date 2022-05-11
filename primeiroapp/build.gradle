@@ -1,0 +1,14 @@
+//Plugins são esquemas de aplicações que já estão prontos;
+//Application (obrigatório do plugin application) é um plugin do gradle que cria programas executáveis
+
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'gradleapp.Application'
+}

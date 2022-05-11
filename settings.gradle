@@ -1,0 +1,6 @@
+//Gradle é um sitema de gerenciamento de sistema e build, 
+//utilizado em java serve pra confiugurar o código, e tornar o ambiente mais acessível. 
+//Garantir que a build aconteca sempre da mesma maneira (em casos de compartilhamento de código)
+
+rootProject.name = 'gradleapp'
+include('primeiroapp')
